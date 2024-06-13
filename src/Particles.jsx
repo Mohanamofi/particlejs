@@ -69,9 +69,7 @@ const ParticlesComponent = (props) => {
         move: {
           direction: "none",
           enable: true,
-          outModes: {
-            default: "bounce",
-          },
+         
           random: true,
           speed: 4,
           straight: false,
@@ -80,7 +78,7 @@ const ParticlesComponent = (props) => {
           density: {
             enable: true,
           },
-          value: 200,
+          value: 220,
         },
         opacity: {
           value: 2.0,
